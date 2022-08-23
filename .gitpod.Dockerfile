@@ -15,18 +15,18 @@ RUN curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/s
 
 RUN curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
 
+# TODO [Issue #1 - Start] - Require checksum to pass to complete build
+
 # Validate kubectl checksum result (kcr)
+# RUN kcr=echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
 
-RUN kcr=echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
-
-# TODO [DevSecOps] - Require checksum to pass to complete build
-# # Echo kcr to terminal
-
+# Echo kcr to terminal
 # RUN echo "$kcr"
 
-# # KCR Checkpoint
-
+# KCR Checkpoint
 # RUN [[ $(echo "$kcr") != *kubectl: OK* ]]
+
+# TODO [Issue #1 - End] - Require checksum to pass to complete build
 
 # Install kubectl
 
