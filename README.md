@@ -1,10 +1,13 @@
 # Ephemeral/AdHoc Localstack
-### Based from GitPod Base Environment (Includes Docker)
-### Includes kubectl, minikube, and aws-cli
+### Base Image
+#### gitpod/workspace-full
+### Includes
+#### localstack
+#### kubectl
+#### minikube
+#### aws-cli
 
-This project features an ephemerial GitPod base environment with kubectl, minikube, localstack, aws-cli
-
-GitPod Launch Pads:
+### Use the following GitPod launch points to access the ephemerial environment for this project:
 
 [![Open in Gitpod](https://img.shields.io/badge/Gitpod-ready--to--code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/bfs-io/gitpod-localstack-kubectl-minikube)
 
