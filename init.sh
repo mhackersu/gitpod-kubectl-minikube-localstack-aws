@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# Update localstack
+# Pull localstack
 docker pull localstack/localstack
 
+# Install localstack
 start-localstack
