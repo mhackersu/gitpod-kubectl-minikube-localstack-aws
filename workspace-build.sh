@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Start localstack
-start-localstack
+# Build workspace
+workspace-build
