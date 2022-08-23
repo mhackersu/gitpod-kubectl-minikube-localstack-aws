@@ -8,4 +8,4 @@ WORKDIR /usr/src/app
 RUN pip install localstack awscli awscli-local
 
 # Pass start.sh to working directory
-COPY start.sh /usr/local/bin/start-localstack
+COPY --chown=gitpod start.sh /usr/local/bin/start-localstack
