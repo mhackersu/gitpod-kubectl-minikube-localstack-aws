@@ -40,4 +40,4 @@ RUN kubectl version --client
 RUN brew install minikube
 
 # Pass start.sh to working directory
-COPY --chown=gitpod workspace-bash-launch.sh /usr/local/bin/workspace-bash-launch
+COPY --chown=gitpod workspace-bash-run.sh /usr/local/bin/workspace-bash-run
