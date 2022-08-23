@@ -1,4 +1,4 @@
 #!/bin/bash
 
-# Build workspace
-workspace-build
+# Launch workspace
+workspace-bash
