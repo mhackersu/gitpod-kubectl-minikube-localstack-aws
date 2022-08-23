@@ -21,6 +21,4 @@
 
 ### TODO
 - [Require checksum validation to complete build](https://github.com/bfs-io/gitpod-localstack-kubectl-minikube/issues/1)
-
-### Unreported Issues
-- Local shell permissions issues when using repo from organization. Check GitPod source control access.
+- [Local shell permissions issues when using repo from organization. Check GitPod source control access.](https://github.com/bfs-io/gitpod-localstack-kubectl-minikube/issues/2)
