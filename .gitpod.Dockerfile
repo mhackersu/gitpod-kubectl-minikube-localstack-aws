@@ -40,4 +40,4 @@ RUN kubectl version --client
 RUN brew install minikube
 
 # Pass start.sh to working directory
-COPY --chown=gitpod start-localstack.sh /usr/local/bin/start-localstack
+COPY --chown=gitpod workspace-build.sh /usr/local/bin/workspace-build
