@@ -1,1 +1,2 @@
-# Ephemeral/AdHoc environment with GitPod Base + localstack, kubectl, minikube, and aws-cli
+# Ephemeral/AdHoc Localstack
+## Includes kubectl, minikube, and aws-cli
