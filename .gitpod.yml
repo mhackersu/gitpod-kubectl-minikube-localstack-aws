@@ -1,6 +1,6 @@
 github:
   prebuilds:
-    pullRequestsFromForks: true
+    pullRequestsFromForks: false
     addComment: true
 image:
   file: .gitpod.Dockerfile
