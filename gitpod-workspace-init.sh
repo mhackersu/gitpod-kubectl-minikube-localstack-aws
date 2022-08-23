@@ -1,7 +1,4 @@
 #!/bin/bash
 
-# Pull latest localstack
-docker pull localstack/localstack
-
-# Install localstack
+# Start localstack
 start-localstack
