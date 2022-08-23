@@ -23,4 +23,4 @@
 - [Require checksum to pass to complete build](https://github.com/bfs-io/gitpod-localstack-kubectl-minikube/blob/main/.gitpod.Dockerfile#L22)
 
 ### Known Issues
-- Local shell permissions issues when using repo from organization. Check GitPod source control access 
+- Local shell permissions issues when using repo from organization. Check GitPod source control access.
