@@ -20,4 +20,3 @@ tasks:
   - name: Launch Localstack
     init: >
       DEBUG=1 localstack start -d
-    command: launch localstack
