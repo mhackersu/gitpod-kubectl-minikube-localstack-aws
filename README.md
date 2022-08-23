@@ -20,9 +20,6 @@
 [![Open in Gitpod](https://img.shields.io/badge/Gitpod-manual--build-orange?logo=gitpod)](https://gitpod.io/#imagebuild/https://github.com/bfs-io/gitpod-localstack-kubectl-minikube)
 
 ### TODO
-- [Require checksum to pass to complete build](https://github.com/bfs-io/gitpod-localstack-kubectl-minikube/blob/main/.gitpod.Dockerfile#L22)
-
-### Known Issues
 - [Require checksum validation to complete build](https://github.com/bfs-io/gitpod-localstack-kubectl-minikube/issues/1)
 
 ### Unreported Issues
