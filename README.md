@@ -1,8 +1,8 @@
 # Ephemeral/AdHoc Localstack
 ### Base Image
-#### gitpod/workspace-full
+#### [gitpod/workspace-full](https://hub.docker.com/r/gitpod/workspace-full/)
 ### Includes
-#### localstack
+#### [localstack](https://github.com/localstack/localstack)
 #### kubectl
 #### minikube
 #### aws-cli
