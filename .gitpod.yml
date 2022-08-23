@@ -17,4 +17,4 @@ github:
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: ${GITPOD_REPO_ROOT}/gitpod-workspace-launch-setup.sh
+  - init: ${GITPOD_REPO_ROOT}/workspace-launch-setup.sh
