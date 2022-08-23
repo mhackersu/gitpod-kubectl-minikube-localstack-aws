@@ -17,4 +17,7 @@ github:
 image:
   file: .gitpod.Dockerfile
 tasks:
-  - init: ${GITPOD_REPO_ROOT}/workspace-bash-task.sh
+  - name: Launch Localstack
+    init: >
+      DEBUG=1 localstack start -d
+    command: launch localstack
