@@ -15,9 +15,13 @@ RUN curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/s
 
 RUN curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl.sha256"
 
-# Validate kubectl checksum
+# Validate kubectl checksum result (kcr)
 
-RUN echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+RUN kcr=echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
+
+# KCR Checkpoint
+
+RUN [[ $(echo "$kcr") != *kubectl: OK* ]]
 
 # Install kubectl
 
