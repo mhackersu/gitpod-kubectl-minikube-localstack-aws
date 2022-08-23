@@ -19,6 +19,7 @@ RUN curl -LO "https://dl.k8s.io/$(curl -L -s https://dl.k8s.io/release/stable.tx
 
 RUN kcr=echo "$(cat kubectl.sha256)  kubectl" | sha256sum --check
 
+# TODO [DevSecOps] - Require checksum to pass to complete build
 # # Echo kcr to terminal
 
 # RUN echo "$kcr"
