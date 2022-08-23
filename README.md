@@ -7,7 +7,8 @@
 #### minikube
 #### aws-cli
 
-### Use the following GitPod launch points to access the ephemerial environment for this project:
+### Launch Pad
+** Use the GitPod launch points to access the ephemerial environment for this project: **
 
 [![Open in Gitpod](https://img.shields.io/badge/Gitpod-with--prebuild-blue?logo=gitpod)](https://gitpod.io/#https://github.com/bfs-io/gitpod-localstack-kubectl-minikube)
 
