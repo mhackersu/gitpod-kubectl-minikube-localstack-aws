@@ -1,4 +1,9 @@
-# Ephemeral/AdHoc Localstack
+# Ephemeral/AdHoc MiniKube Localstack w/AWS CLI
+
+### How to use this environment
+#### Update Launch Badges
+- Update badges with your GitHub username [here](https://github.com/bfs-io/gitpod-localstack-kubectl-minikube/blob/main/README.md?plain=1#L13) and [here](https://github.com/bfs-io/gitpod-localstack-kubectl-minikube/blob/main/README.md?plain=1#L15)
+
 ### Base Image
 #### [gitpod/workspace-full](https://hub.docker.com/r/gitpod/workspace-full/)
 ### Includes
